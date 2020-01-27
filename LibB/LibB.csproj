@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LibANetstandard20\LibANetstandard20.csproj">
-      <Private>true</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\LibA\LibA.csproj">
-      <Private>true</Private>
-    </ProjectReference>
+    <Reference Include="LibA">
+      <HintPath>..\LibA\bin\Debug\netstandard2.0\LibA.dll</HintPath>
+    </Reference>
+    <Reference Include="LibANetstandard20">
+      <HintPath>..\LibANetstandard20\bin\Debug\netstandard2.0\LibANetstandard20.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
